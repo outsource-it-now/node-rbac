@@ -78,6 +78,10 @@ export default class DynamooseMTStorage extends Storage {
   get options() {
     return this._options;
   }
+  
+  get tenant() {
+    return this._options.tenant;
+  }
 
   add(item, cb) {
     const newInstance = new this.model({
@@ -288,7 +292,7 @@ export default class DynamooseMTStorage extends Storage {
       .queryOne('name').eq(role)
       .filter('type').eq(Type.ROLE)
       .and()
-      .filter('tenant').eq(this._options.tenant)
+      .filter('tenant').eq(this.tenant)
       .exec((err, record) => {
         if (err) {
           return cb(err);
