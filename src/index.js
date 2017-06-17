@@ -5,8 +5,9 @@ import Storage from './storages';
 import Mongoose from './storages/Mongoose';
 import Memory from './storages/Memory';
 import Dynamoose from './storages/Dynamoose';
+import DynamooseMT from './storages/DynamooseMT';
 
 export { Role, Permission };
-export { Storage, Memory, Mongoose, Dynamoose };
+export { Storage, Memory, Mongoose, Dynamoose, DynamooseMT };
 
 export default RBAC;
