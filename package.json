@@ -1,6 +1,6 @@
 {
-  "name": "rbac",
-  "version": "4.0.2",
+  "name": "node-rbac",
+  "version": "4.0.3",
   "description": "Hierarchical Role Based Access Control",
   "author": {
     "name": "Zlatko Fedor",
