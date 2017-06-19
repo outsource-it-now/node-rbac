@@ -4,6 +4,7 @@
 .bower-cache/
 .bower-registry/
 .bower-tmp/
+.vscode
 node_modules/
 public/lib
 public/release

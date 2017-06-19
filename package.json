@@ -1,5 +1,5 @@
 {
-  "name": "node-rbac",
+  "name": "co-osin-node-rbac",
   "version": "4.0.3",
   "description": "Hierarchical Role Based Access Control. Modified version with Multi-Tenant support on Dynamoose storage. Name has 'rbac' changed to node-rbac. Orginal version is here https://github.com/CherryProjects/rbac",
   "author": {
